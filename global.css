@@ -1,0 +1,39 @@
+html,
+body,
+body > div:first-child,
+div#__next,
+div#__next > div {
+  height: 100%;
+}
+
+.blue-bg{
+  background: rgb(0,3,54);
+  background: linear-gradient(123deg, rgba(0,3,54,1) 45%, rgba(10,68,121,1) 86%);
+}
+
+.dark-bg{
+  background: #000;
+}
+
+.overflow {
+  height: 50%;
+  overflow: hidden;
+}
+
+.overflow .card-img-top {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+
+.overflow .card-img-top:hover {
+  transform: scale(1.8);
+}
+
+#nprogress .bar {
+  background: #ff5367 !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #ffbb00;
+  border-left-color: #ffbb00;
+}
